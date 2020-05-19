@@ -40,7 +40,6 @@ void printHangmanWord(int wordLength, int guessedLetters[], char correctWord[])
     }
     printf("%s", "\n");
 }
-
 //checks if the user's input was correct, it it was it replaces that character position to 1 in guessedLetters
 int checkGuess(int correctGuesses, int wordLength, int guessedLetters[], char charInput, char correctWord[], int livesLeft)
 {
@@ -91,7 +90,7 @@ void printGameResult(int quit, int livesLeft, char correctWord[])
     }
     else
     {
-        printf("-------------------------------------------------------\n");
+        printf("\n-------------------------------------------------------\n");
         printf("| #  #  # #  #    #   #             # ###  #     #  ## |\n");
         printf("| #  # #   # #    #    #           #   #   # #   #  ## |\n");
         printf("|  #   #   # #    #     #   ##    #    #   #  #  #  ## |\n");
@@ -169,6 +168,6 @@ int main(void)
 
     printf("\033[0;0H\033[2J");
     printHangmanWord(wordLength, guessedLetters, correctWord);   
-    printf("Number of Lives Left: %d\n", livesLeft);                                             
+    printf("Number of Lives Left: %d", livesLeft);                                             
     printGameResult(quit, livesLeft, correctWord);                                                                       //calls on printGameResult 
 }
