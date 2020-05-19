@@ -5,7 +5,7 @@
 
 #include "man.h"
 
-#define MAXWORDS 20
+#define MAXWORDS 126
 #define MAXWORDLENGTH 20
 
 //reads words from words.txt and stores them in words[][]
@@ -90,13 +90,13 @@ void printGameResult(int quit, int livesLeft, char correctWord[])
     }
     else
     {
-        printf("\n-------------------------------------------------------\n");
+        printf("\n ------------------------------------------------------\n");
         printf("| #  #  # #  #    #   #             # ###  #     #  ## |\n");
         printf("| #  # #   # #    #    #           #   #   # #   #  ## |\n");
         printf("|  #   #   # #    #     #   ##    #    #   #  #  #  ## |\n");
         printf("|  #   #   # #    #      #  # #  #     #   #   # #     |\n");
         printf("|  #    # #   # #         ##   ##     ###  #    ##  ## |\n");
-        printf("-------------------------------------------------------\n\n");                                                                                         //otherwise, prints user won message
+        printf(" ------------------------------------------------------\n\n");                                                                                         //otherwise, prints user won message
     }
 }
 
