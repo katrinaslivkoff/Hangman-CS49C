@@ -55,16 +55,13 @@ void inst(void)    //defining instructions
 void hangman(int a) {    //defining hangman
     switch (a) {
     case 6:
-        {
-            printf("\n  _______\n");
-            printf("  |/\n");
-            printf("  |\n");
-            printf("  |\n");
-            printf("  |\n");
-            printf("  |\n");
-            printf("__|_________\n\n");
-
-        }
+        printf("\n  _______\n");
+        printf("  |/\n");
+        printf("  |\n");
+        printf("  |\n");
+        printf("  |\n");
+        printf("  |\n");
+        printf("__|_________\n\n");
         break;
 
     case 5:
@@ -113,24 +110,24 @@ void hangman(int a) {    //defining hangman
         break;
 
     case 1:
-      printf("\n  _______\n");
-      printf("  |/   | \n");
-      printf("  |    O \n");
-      printf("  |   \\|/\n");
-      printf("  |    |\n");
-      printf("  |   /  \n");
-      printf("__|_________\n\n");
+        printf("\n  _______\n");
+        printf("  |/   | \n");
+        printf("  |    O \n");
+        printf("  |   \\|/\n");
+        printf("  |    |\n");
+        printf("  |   /  \n");
+        printf("__|_________\n\n");
 
     break;
 
     case 0:
-      printf("\n  _______\n");
-      printf("  |/   | \n");
-      printf("  |    x \n");
-      printf("  |   \\|/\n");
-      printf("  |    |\n");
-      printf("  |   / \\\n");
-      printf("__|_________\n\n");
+        printf("\n  _______\n");
+        printf("  |/   | \n");
+        printf("  |    x \n");
+        printf("  |   \\|/\n");
+        printf("  |    |\n");
+        printf("  |   / \\\n");
+        printf("__|_________\n\n");
 
     break;
 
