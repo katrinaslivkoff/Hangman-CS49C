@@ -4,7 +4,6 @@
 void title(void); //function prototype for title
 void inst(void);       //function prototype for instructions
 void hangman(int);   //function prototype for hangman
-//void credits(void);      //function prototype for credits
 
 void delay(unsigned int secs) {
     unsigned int end = time(0) + secs;
